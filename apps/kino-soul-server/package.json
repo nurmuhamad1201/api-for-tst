@@ -35,6 +35,8 @@
     "bcrypt": "5.1.1",
     "class-transformer": "0.5.1",
     "class-validator": "0.14.0",
+    "docker-compose": "^0.24.8",
+    "dockerode": "^4.0.2",
     "dotenv": "16.3.1",
     "graphql": "^16.8.1",
     "graphql-type-json": "0.3.2",
@@ -78,6 +80,8 @@
     "moduleNameMapper": {
       "@app/custom-validators": "<rootDir>/src/validators"
     },
-    "modulePathIgnorePatterns": ["<rootDir>/dist/"]
+    "modulePathIgnorePatterns": [
+      "<rootDir>/dist/"
+    ]
   }
 }
